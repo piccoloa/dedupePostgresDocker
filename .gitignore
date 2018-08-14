@@ -11,3 +11,9 @@ DockerETL/Illinois-campaign-contributions.txt
 /DockerETL/small_Illinois-campaign-contributions.txt.zip
 /__MACOSX/
 .DS_Store
+/notebooks/CSV_dedupe-Copy1.ipynb
+/notebooks/White_House_Visitor_Records_Requests.csv
+/notebooks/csv_example_input_with_true_ids0.csv
+/notebooks/csv_example_input_with_true_ids1.csv
+/notebooks/csv_example_input_with_true_ids.csv
+/notebooks/csv_customer_output.csv
