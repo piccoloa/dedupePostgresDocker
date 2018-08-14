@@ -7,5 +7,7 @@ DockerETL/Illinois-campaign-contributions.txt
 /notebooks/Illinois-campaign-contributions.txt
 /notebooks/Illinois-campaign-contributions.txt.zip
 /notebooks/White_House_Visitor_Records_Requests.csv
+/DockerETL/small_Illinois-campaign-contributions.csv
+/DockerETL/small_Illinois-campaign-contributions.txt.zip
 /__MACOSX/
 .DS_Store
