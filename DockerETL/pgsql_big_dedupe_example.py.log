@@ -1,0 +1,478 @@
+2018-08-08 03:57:51,606 INFO api:541 ((TfidfNGramCanopyPredicate: (0.8, city), TfidfTextCanopyPredicate: (0.8, address)), (SimplePredicate: (twoGramFingerprint, name), SimplePredicate: (wholeFieldPredicate, person)), (TfidfNGramCanopyPredicate: (0.4, zip), TfidfTextCanopyPredicate: (0.6, name)), (SimplePredicate: (commonIntegerPredicate, name), SimplePredicate: (oneGramFingerprint, zip)))
+2018-08-08 03:57:51,607 INFO pgsql_big_dedupe_example:177 blocking...
+2018-08-08 03:57:51,608 INFO pgsql_big_dedupe_example:181 creating blocking_map database
+2018-08-08 03:57:51,657 INFO pgsql_big_dedupe_example:189 creating inverted index
+2018-08-08 03:57:52,314 INFO canopy_index:32 Removing stop word on
+2018-08-08 03:57:52,334 INFO canopy_index:32 Removing stop word il
+2018-08-08 03:57:52,335 INFO canopy_index:32 Removing stop word ar
+2018-08-08 03:57:52,337 INFO canopy_index:32 Removing stop word in
+2018-08-08 03:57:52,338 INFO canopy_index:32 Removing stop word an
+2018-08-08 03:57:52,339 INFO canopy_index:32 Removing stop word ll
+2018-08-08 03:57:52,341 INFO canopy_index:32 Removing stop word er
+2018-08-08 03:57:52,342 INFO canopy_index:32 Removing stop word le
+2018-08-08 03:58:10,344 INFO canopy_index:32 Removing stop word s
+2018-08-08 03:58:10,346 INFO canopy_index:32 Removing stop word n
+2018-08-08 03:58:10,349 INFO canopy_index:32 Removing stop word drive
+2018-08-08 03:58:10,351 INFO canopy_index:32 Removing stop word road
+2018-08-08 03:58:10,353 INFO canopy_index:32 Removing stop word suite
+2018-08-08 03:58:10,355 INFO canopy_index:32 Removing stop word street
+2018-08-08 03:58:10,357 INFO canopy_index:32 Removing stop word rd
+2018-08-08 03:58:10,359 INFO canopy_index:32 Removing stop word ave
+2018-08-08 03:58:10,361 INFO canopy_index:32 Removing stop word st
+2018-08-08 03:58:10,363 INFO canopy_index:32 Removing stop word w
+2018-08-08 03:58:10,366 INFO canopy_index:32 Removing stop word avenue
+2018-08-08 03:58:12,121 INFO canopy_index:32 Removing stop word 06
+2018-08-08 03:58:12,123 INFO canopy_index:32 Removing stop word 10
+2018-08-08 03:58:12,124 INFO canopy_index:32 Removing stop word 21
+2018-08-08 03:58:12,126 INFO canopy_index:32 Removing stop word 60
+2018-08-08 03:58:12,127 INFO canopy_index:32 Removing stop word 05
+2018-08-08 03:58:12,129 INFO canopy_index:32 Removing stop word 65
+2018-08-08 03:58:12,130 INFO canopy_index:32 Removing stop word 22
+2018-08-08 03:58:12,131 INFO canopy_index:32 Removing stop word 32
+2018-08-08 03:58:12,132 INFO canopy_index:32 Removing stop word 33
+2018-08-08 03:58:12,133 INFO canopy_index:32 Removing stop word 09
+2018-08-08 03:58:12,135 INFO canopy_index:32 Removing stop word 40
+2018-08-08 03:58:12,136 INFO canopy_index:32 Removing stop word 04
+2018-08-08 03:58:12,138 INFO canopy_index:32 Removing stop word 45
+2018-08-08 03:58:12,139 INFO canopy_index:32 Removing stop word 01
+2018-08-08 03:58:12,140 INFO canopy_index:32 Removing stop word 19
+2018-08-08 03:58:12,142 INFO canopy_index:32 Removing stop word 27
+2018-08-08 03:58:12,143 INFO canopy_index:32 Removing stop word 70
+2018-08-08 03:58:12,145 INFO canopy_index:32 Removing stop word 08
+2018-08-08 03:58:12,146 INFO canopy_index:32 Removing stop word 20
+2018-08-08 03:58:12,147 INFO canopy_index:32 Removing stop word 14
+2018-08-08 03:58:12,148 INFO canopy_index:32 Removing stop word 51
+2018-08-08 03:58:12,150 INFO canopy_index:32 Removing stop word 44
+2018-08-08 03:58:12,151 INFO canopy_index:32 Removing stop word 61
+2018-08-08 03:58:12,152 INFO canopy_index:32 Removing stop word 43
+2018-08-08 03:58:12,153 INFO canopy_index:32 Removing stop word 64
+2018-08-08 03:58:12,154 INFO canopy_index:32 Removing stop word 46
+2018-08-08 03:58:12,155 INFO canopy_index:32 Removing stop word 03
+2018-08-08 03:58:12,156 INFO canopy_index:32 Removing stop word 16
+2018-08-08 03:58:12,157 INFO canopy_index:32 Removing stop word 30
+2018-08-08 03:58:12,159 INFO canopy_index:32 Removing stop word 18
+2018-08-08 03:58:12,160 INFO canopy_index:32 Removing stop word 34
+2018-08-08 03:58:12,161 INFO canopy_index:32 Removing stop word 54
+2018-08-08 03:58:12,162 INFO canopy_index:32 Removing stop word 15
+2018-08-08 03:58:30,552 INFO canopy_index:32 Removing stop word inc
+2018-08-08 03:58:31,144 INFO pgsql_big_dedupe_example:200 writing blocking map
+2018-08-08 03:58:34,351 INFO blocking:46 10000, 3.1854752 seconds
+2018-08-08 03:58:36,981 INFO blocking:46 20000, 5.8054582 seconds
+2018-08-08 03:58:39,366 INFO blocking:46 30000, 8.1820362 seconds
+2018-08-08 03:58:42,084 INFO blocking:46 40000, 10.8849262 seconds
+2018-08-08 03:58:44,733 INFO blocking:46 50000, 13.5248692 seconds
+2018-08-08 03:58:47,146 INFO blocking:46 60000, 15.9288272 seconds
+2018-08-08 03:58:49,342 INFO blocking:46 70000, 18.1154802 seconds
+2018-08-08 03:58:51,786 INFO blocking:46 80000, 20.5501192 seconds
+2018-08-08 03:58:54,312 INFO blocking:46 90000, 23.0663392 seconds
+2018-08-08 03:58:56,953 INFO blocking:46 100000, 25.6877142 seconds
+2018-08-08 03:58:59,525 INFO blocking:46 110000, 28.2507952 seconds
+2018-08-08 03:59:02,017 INFO blocking:46 120000, 30.7340242 seconds
+2018-08-08 03:59:04,453 INFO blocking:46 130000, 33.1554122 seconds
+2018-08-08 03:59:06,945 INFO blocking:46 140000, 35.6380902 seconds
+2018-08-08 03:59:09,319 INFO blocking:46 150000, 38.0031222 seconds
+2018-08-08 03:59:11,246 INFO blocking:46 160000, 39.9204932 seconds
+2018-08-08 03:59:13,046 INFO blocking:46 170000, 41.6989932 seconds
+2018-08-08 03:59:15,344 INFO blocking:46 180000, 43.9865822 seconds
+2018-08-08 03:59:18,109 INFO blocking:46 190000, 46.7397532 seconds
+2018-08-08 03:59:20,740 INFO blocking:46 200000, 49.3604782 seconds
+2018-08-08 03:59:23,310 INFO blocking:46 210000, 51.9139242 seconds
+2018-08-08 03:59:25,701 INFO blocking:46 220000, 54.2953902 seconds
+2018-08-08 03:59:28,082 INFO blocking:46 230000, 56.6666852 seconds
+2018-08-08 03:59:30,467 INFO blocking:46 240000, 59.0430852 seconds
+2018-08-08 03:59:32,747 INFO blocking:46 250000, 61.3119652 seconds
+2018-08-08 03:59:34,918 INFO blocking:46 260000, 63.4688592 seconds
+2018-08-08 03:59:37,243 INFO blocking:46 270000, 65.7778422 seconds
+2018-08-08 03:59:39,622 INFO blocking:46 280000, 68.1477582 seconds
+2018-08-08 03:59:41,802 INFO blocking:46 290000, 70.3116882 seconds
+2018-08-08 03:59:44,257 INFO blocking:46 300000, 72.7522832 seconds
+2018-08-08 03:59:47,058 INFO blocking:46 310000, 75.5415812 seconds
+2018-08-08 03:59:49,431 INFO blocking:46 320000, 77.9050932 seconds
+2018-08-08 03:59:51,457 INFO blocking:46 330000, 79.9223482 seconds
+2018-08-08 03:59:53,690 INFO blocking:46 340000, 82.1452832 seconds
+2018-08-08 03:59:55,909 INFO blocking:46 350000, 84.3329632 seconds
+2018-08-08 03:59:58,064 INFO blocking:46 360000, 86.4782112 seconds
+2018-08-08 04:00:00,240 INFO blocking:46 370000, 88.6457392 seconds
+2018-08-08 04:00:02,451 INFO blocking:46 380000, 90.8369522 seconds
+2018-08-08 04:00:05,272 INFO blocking:46 390000, 93.5287902 seconds
+2018-08-08 04:00:07,443 INFO blocking:46 400000, 95.6835972 seconds
+2018-08-08 04:00:09,672 INFO blocking:46 410000, 97.9018392 seconds
+2018-08-08 04:00:11,905 INFO blocking:46 420000, 100.1246372 seconds
+2018-08-08 04:00:14,055 INFO blocking:46 430000, 102.2640252 seconds
+2018-08-08 04:00:16,498 INFO blocking:46 440000, 104.6961942 seconds
+2018-08-08 04:00:18,654 INFO blocking:46 450000, 106.8415502 seconds
+2018-08-08 04:00:20,801 INFO blocking:46 460000, 108.9788542 seconds
+2018-08-08 04:00:22,853 INFO blocking:46 470000, 111.0199882 seconds
+2018-08-08 04:00:25,164 INFO blocking:46 480000, 113.3009632 seconds
+2018-08-08 04:00:27,469 INFO blocking:46 490000, 115.5943052 seconds
+2018-08-08 04:00:29,573 INFO blocking:46 500000, 117.6889712 seconds
+2018-08-08 04:00:31,794 INFO blocking:46 510000, 119.9002162 seconds
+2018-08-08 04:00:34,135 INFO blocking:46 520000, 122.2314232 seconds
+2018-08-08 04:00:36,262 INFO blocking:46 530000, 124.3506412 seconds
+2018-08-08 04:00:38,321 INFO blocking:46 540000, 126.4000042 seconds
+2018-08-08 04:00:40,317 INFO blocking:46 550000, 128.3874002 seconds
+2018-08-08 04:00:42,448 INFO blocking:46 560000, 130.5015222 seconds
+2018-08-08 04:00:44,563 INFO blocking:46 570000, 132.6067872 seconds
+2018-08-08 04:00:46,575 INFO blocking:46 580000, 134.6092882 seconds
+2018-08-08 04:00:48,757 INFO blocking:46 590000, 136.7816462 seconds
+2018-08-08 04:00:50,847 INFO blocking:46 600000, 138.8619762 seconds
+2018-08-08 04:00:52,861 INFO blocking:46 610000, 140.8658092 seconds
+2018-08-08 04:00:54,955 INFO blocking:46 620000, 142.9514342 seconds
+2018-08-08 04:00:57,656 INFO blocking:46 630000, 145.6339262 seconds
+2018-08-08 04:00:59,882 INFO blocking:46 640000, 147.8508132 seconds
+2018-08-08 04:01:01,837 INFO blocking:46 650000, 149.7968682 seconds
+2018-08-08 04:01:03,769 INFO blocking:46 660000, 151.7198602 seconds
+2018-08-08 04:01:05,737 INFO blocking:46 670000, 153.6784152 seconds
+2018-08-08 04:01:07,619 INFO blocking:46 680000, 155.5515972 seconds
+2018-08-08 04:01:09,698 INFO blocking:46 690000, 157.6218412 seconds
+2018-08-08 04:01:11,787 INFO blocking:46 700000, 159.6943952 seconds
+2018-08-08 04:01:19,388 INFO pgsql_big_dedupe_example:231 prepare blocking table. this will probably take a while ...
+2018-08-08 04:01:19,390 INFO pgsql_big_dedupe_example:233 indexing block_key
+2018-08-08 04:01:28,322 INFO pgsql_big_dedupe_example:244 calculating plural_key
+2018-08-08 04:01:30,468 INFO pgsql_big_dedupe_example:253 creating block_key index
+2018-08-08 04:01:31,223 INFO pgsql_big_dedupe_example:256 calculating plural_block
+2018-08-08 04:01:35,244 INFO pgsql_big_dedupe_example:262 adding donor_id index and sorting index
+2018-08-08 04:01:37,842 INFO pgsql_big_dedupe_example:272 creating covered_blocks
+2018-08-08 04:01:43,000 INFO pgsql_big_dedupe_example:288 creating smaller_coverage
+2018-08-08 04:01:50,388 INFO pgsql_big_dedupe_example:341 clustering...
+2018-08-13 18:59:08,436 INFO api:541 ((TfidfNGramCanopyPredicate: (0.8, city), TfidfTextCanopyPredicate: (0.8, address)), (SimplePredicate: (twoGramFingerprint, name), SimplePredicate: (wholeFieldPredicate, person)), (TfidfNGramCanopyPredicate: (0.4, zip), TfidfTextCanopyPredicate: (0.6, name)), (SimplePredicate: (commonIntegerPredicate, name), SimplePredicate: (oneGramFingerprint, zip)))
+2018-08-13 18:59:08,437 INFO pgsql_big_dedupe_example:178 blocking...
+2018-08-13 18:59:08,438 INFO pgsql_big_dedupe_example:182 creating blocking_map database
+2018-08-13 18:59:08,446 INFO pgsql_big_dedupe_example:190 creating inverted index
+2018-08-13 18:59:08,567 INFO pgsql_big_dedupe_example:201 writing blocking map
+2018-08-13 18:59:08,732 INFO pgsql_big_dedupe_example:232 prepare blocking table. this will probably take a while ...
+2018-08-13 18:59:08,733 INFO pgsql_big_dedupe_example:234 indexing block_key
+2018-08-13 18:59:08,748 INFO pgsql_big_dedupe_example:245 calculating plural_key
+2018-08-13 18:59:08,777 INFO pgsql_big_dedupe_example:254 creating block_key index
+2018-08-13 18:59:08,787 INFO pgsql_big_dedupe_example:257 calculating plural_block
+2018-08-13 18:59:08,795 INFO pgsql_big_dedupe_example:263 adding donor_id index and sorting index
+2018-08-13 18:59:08,806 INFO pgsql_big_dedupe_example:273 creating covered_blocks
+2018-08-13 18:59:08,835 INFO pgsql_big_dedupe_example:289 creating smaller_coverage
+2018-08-13 18:59:08,864 INFO pgsql_big_dedupe_example:342 clustering...
+2018-08-13 18:59:08,944 INFO pgsql_big_dedupe_example:356 creating entity_map database
+2018-08-13 18:59:08,962 INFO pgsql_big_dedupe_example:386 # duplicate sets
+2018-08-13 18:59:08,963 INFO pgsql_big_dedupe_example:387 52
+2018-08-13 18:59:08,997 INFO pgsql_big_dedupe_example:421 Top Donors (deduped)
+2018-08-13 19:02:05,078 INFO api:541 ((TfidfNGramCanopyPredicate: (0.8, city), TfidfTextCanopyPredicate: (0.8, address)), (SimplePredicate: (twoGramFingerprint, name), SimplePredicate: (wholeFieldPredicate, person)), (TfidfNGramCanopyPredicate: (0.4, zip), TfidfTextCanopyPredicate: (0.6, name)), (SimplePredicate: (commonIntegerPredicate, name), SimplePredicate: (oneGramFingerprint, zip)))
+2018-08-13 19:02:05,080 INFO pgsql_big_dedupe_example:178 blocking...
+2018-08-13 19:02:05,081 INFO pgsql_big_dedupe_example:182 creating blocking_map database
+2018-08-13 19:02:05,094 INFO pgsql_big_dedupe_example:190 creating inverted index
+2018-08-13 19:02:05,199 INFO pgsql_big_dedupe_example:201 writing blocking map
+2018-08-13 19:02:05,363 INFO pgsql_big_dedupe_example:232 prepare blocking table. this will probably take a while ...
+2018-08-13 19:02:05,364 INFO pgsql_big_dedupe_example:234 indexing block_key
+2018-08-13 19:02:05,397 INFO pgsql_big_dedupe_example:245 calculating plural_key
+2018-08-13 19:02:05,426 INFO pgsql_big_dedupe_example:254 creating block_key index
+2018-08-13 19:02:05,434 INFO pgsql_big_dedupe_example:257 calculating plural_block
+2018-08-13 19:02:05,445 INFO pgsql_big_dedupe_example:263 adding donor_id index and sorting index
+2018-08-13 19:02:05,459 INFO pgsql_big_dedupe_example:273 creating covered_blocks
+2018-08-13 19:02:05,543 INFO pgsql_big_dedupe_example:289 creating smaller_coverage
+2018-08-13 19:02:05,567 INFO pgsql_big_dedupe_example:342 clustering...
+2018-08-13 19:02:05,634 INFO pgsql_big_dedupe_example:356 creating entity_map database
+2018-08-13 19:02:05,667 INFO pgsql_big_dedupe_example:386 # duplicate sets
+2018-08-13 19:02:05,668 INFO pgsql_big_dedupe_example:387 52
+2018-08-13 19:02:05,703 INFO pgsql_big_dedupe_example:421 Top Donors (deduped)
+2018-08-13 19:02:16,042 INFO api:541 ((TfidfNGramCanopyPredicate: (0.8, city), TfidfTextCanopyPredicate: (0.8, address)), (SimplePredicate: (twoGramFingerprint, name), SimplePredicate: (wholeFieldPredicate, person)), (TfidfNGramCanopyPredicate: (0.4, zip), TfidfTextCanopyPredicate: (0.6, name)), (SimplePredicate: (commonIntegerPredicate, name), SimplePredicate: (oneGramFingerprint, zip)))
+2018-08-13 19:02:16,044 INFO pgsql_big_dedupe_example:178 blocking...
+2018-08-13 19:02:16,045 INFO pgsql_big_dedupe_example:182 creating blocking_map database
+2018-08-13 19:02:16,058 INFO pgsql_big_dedupe_example:190 creating inverted index
+2018-08-13 19:02:16,158 INFO pgsql_big_dedupe_example:201 writing blocking map
+2018-08-13 19:02:16,330 INFO pgsql_big_dedupe_example:232 prepare blocking table. this will probably take a while ...
+2018-08-13 19:02:16,332 INFO pgsql_big_dedupe_example:234 indexing block_key
+2018-08-13 19:02:16,360 INFO pgsql_big_dedupe_example:245 calculating plural_key
+2018-08-13 19:02:16,389 INFO pgsql_big_dedupe_example:254 creating block_key index
+2018-08-13 19:02:16,397 INFO pgsql_big_dedupe_example:257 calculating plural_block
+2018-08-13 19:02:16,406 INFO pgsql_big_dedupe_example:263 adding donor_id index and sorting index
+2018-08-13 19:02:16,421 INFO pgsql_big_dedupe_example:273 creating covered_blocks
+2018-08-13 19:02:16,509 INFO pgsql_big_dedupe_example:289 creating smaller_coverage
+2018-08-13 19:02:16,550 INFO pgsql_big_dedupe_example:342 clustering...
+2018-08-13 19:02:16,612 INFO pgsql_big_dedupe_example:356 creating entity_map database
+2018-08-13 19:02:16,647 INFO pgsql_big_dedupe_example:386 # duplicate sets
+2018-08-13 19:02:16,649 INFO pgsql_big_dedupe_example:387 52
+2018-08-13 19:02:16,683 INFO pgsql_big_dedupe_example:421 Top Donors (deduped)
+2018-08-13 19:02:37,043 INFO api:541 ((TfidfNGramCanopyPredicate: (0.8, city), TfidfTextCanopyPredicate: (0.8, address)), (SimplePredicate: (twoGramFingerprint, name), SimplePredicate: (wholeFieldPredicate, person)), (TfidfNGramCanopyPredicate: (0.4, zip), TfidfTextCanopyPredicate: (0.6, name)), (SimplePredicate: (commonIntegerPredicate, name), SimplePredicate: (oneGramFingerprint, zip)))
+2018-08-13 19:02:37,045 INFO pgsql_big_dedupe_example:178 blocking...
+2018-08-13 19:02:37,046 INFO pgsql_big_dedupe_example:182 creating blocking_map database
+2018-08-13 19:02:37,061 INFO pgsql_big_dedupe_example:190 creating inverted index
+2018-08-13 19:02:37,164 INFO pgsql_big_dedupe_example:201 writing blocking map
+2018-08-13 19:02:37,335 INFO pgsql_big_dedupe_example:232 prepare blocking table. this will probably take a while ...
+2018-08-13 19:02:37,336 INFO pgsql_big_dedupe_example:234 indexing block_key
+2018-08-13 19:02:37,358 INFO pgsql_big_dedupe_example:245 calculating plural_key
+2018-08-13 19:02:37,393 INFO pgsql_big_dedupe_example:254 creating block_key index
+2018-08-13 19:02:37,405 INFO pgsql_big_dedupe_example:257 calculating plural_block
+2018-08-13 19:02:37,417 INFO pgsql_big_dedupe_example:263 adding donor_id index and sorting index
+2018-08-13 19:02:37,431 INFO pgsql_big_dedupe_example:273 creating covered_blocks
+2018-08-13 19:02:37,506 INFO pgsql_big_dedupe_example:289 creating smaller_coverage
+2018-08-13 19:02:37,536 INFO pgsql_big_dedupe_example:342 clustering...
+2018-08-13 19:02:37,604 INFO pgsql_big_dedupe_example:356 creating entity_map database
+2018-08-13 19:02:37,641 INFO pgsql_big_dedupe_example:386 # duplicate sets
+2018-08-13 19:02:37,643 INFO pgsql_big_dedupe_example:387 52
+2018-08-13 19:02:37,669 INFO pgsql_big_dedupe_example:421 Top Donors (deduped)
+2018-08-13 19:02:37,670 INFO pgsql_big_dedupe_example:424              10000.0: divine interventures inc.
+2018-08-13 19:02:37,671 INFO pgsql_big_dedupe_example:424              11426.8: friends of michael j. madigan
+2018-08-13 19:02:37,672 INFO pgsql_big_dedupe_example:424              11000.0: household international
+2018-08-13 19:02:37,674 INFO pgsql_big_dedupe_example:424             55240.25: house republican campaign committee
+2018-08-13 19:02:37,675 INFO pgsql_big_dedupe_example:424              21500.0: illinois political action committee for education
+2018-08-13 19:02:37,676 INFO pgsql_big_dedupe_example:424              15000.0: il transfer system/shazam network
+2018-08-13 19:02:37,678 INFO pgsql_big_dedupe_example:424              10000.0: jones day reavis & pogue
+2018-08-13 19:02:37,680 INFO pgsql_big_dedupe_example:424             24199.76: peoples energy
+2018-08-13 19:02:37,683 INFO pgsql_big_dedupe_example:424              95000.0: barre seid
+2018-08-13 19:02:37,685 INFO pgsql_big_dedupe_example:424              15000.0: fred eychaner
+2018-08-13 19:02:37,699 INFO pgsql_big_dedupe_example:438 Top Donors (raw)
+2018-08-13 19:02:37,701 INFO pgsql_big_dedupe_example:441              95000.0: barre seid
+2018-08-13 19:02:37,703 INFO pgsql_big_dedupe_example:441             55240.25: house republican campaign committee
+2018-08-13 19:02:37,704 INFO pgsql_big_dedupe_example:441             22699.76: peoples energy corporation
+2018-08-13 19:02:37,705 INFO pgsql_big_dedupe_example:441              20000.0: illinois political action committee for education
+2018-08-13 19:02:37,707 INFO pgsql_big_dedupe_example:441              15000.0: il transfer system/shazam network
+2018-08-13 19:02:37,709 INFO pgsql_big_dedupe_example:441              15000.0: fred eychaner
+2018-08-13 19:02:37,710 INFO pgsql_big_dedupe_example:441              11000.0: household international
+2018-08-13 19:02:37,711 INFO pgsql_big_dedupe_example:441              10936.0: friends of michael madigan
+2018-08-13 19:02:37,712 INFO pgsql_big_dedupe_example:441              10000.0: divine interventures inc.
+2018-08-13 19:02:37,714 INFO pgsql_big_dedupe_example:441              10000.0: jones day reavis & pogue
+2018-08-13 19:03:24,756 INFO api:541 ((TfidfNGramCanopyPredicate: (0.8, city), TfidfTextCanopyPredicate: (0.8, address)), (SimplePredicate: (twoGramFingerprint, name), SimplePredicate: (wholeFieldPredicate, person)), (TfidfNGramCanopyPredicate: (0.4, zip), TfidfTextCanopyPredicate: (0.6, name)), (SimplePredicate: (commonIntegerPredicate, name), SimplePredicate: (oneGramFingerprint, zip)))
+2018-08-13 19:03:24,758 INFO pgsql_big_dedupe_example:178 blocking...
+2018-08-13 19:03:24,759 INFO pgsql_big_dedupe_example:182 creating blocking_map database
+2018-08-13 19:03:24,769 INFO pgsql_big_dedupe_example:190 creating inverted index
+2018-08-13 19:03:24,870 INFO pgsql_big_dedupe_example:201 writing blocking map
+2018-08-13 19:03:25,036 INFO pgsql_big_dedupe_example:232 prepare blocking table. this will probably take a while ...
+2018-08-13 19:03:25,037 INFO pgsql_big_dedupe_example:234 indexing block_key
+2018-08-13 19:03:25,057 INFO pgsql_big_dedupe_example:245 calculating plural_key
+2018-08-13 19:03:25,081 INFO pgsql_big_dedupe_example:254 creating block_key index
+2018-08-13 19:03:25,088 INFO pgsql_big_dedupe_example:257 calculating plural_block
+2018-08-13 19:03:25,099 INFO pgsql_big_dedupe_example:263 adding donor_id index and sorting index
+2018-08-13 19:03:25,120 INFO pgsql_big_dedupe_example:273 creating covered_blocks
+2018-08-13 19:03:25,199 INFO pgsql_big_dedupe_example:289 creating smaller_coverage
+2018-08-13 19:03:25,237 INFO pgsql_big_dedupe_example:342 clustering...
+2018-08-13 19:03:25,295 INFO pgsql_big_dedupe_example:356 creating entity_map database
+2018-08-13 19:03:25,329 INFO pgsql_big_dedupe_example:386 # duplicate sets
+2018-08-13 19:03:25,330 INFO pgsql_big_dedupe_example:387 52
+2018-08-13 19:03:25,354 INFO pgsql_big_dedupe_example:421 Top Donors (deduped)
+2018-08-13 19:03:25,354 INFO pgsql_big_dedupe_example:424              10000.0: divine interventures inc.
+2018-08-13 19:03:25,355 INFO pgsql_big_dedupe_example:424              11426.8: friends of michael j. madigan
+2018-08-13 19:03:25,356 INFO pgsql_big_dedupe_example:424              11000.0: household international
+2018-08-13 19:03:25,356 INFO pgsql_big_dedupe_example:424             55240.25: house republican campaign committee
+2018-08-13 19:03:25,357 INFO pgsql_big_dedupe_example:424              21500.0: illinois political action committee for education
+2018-08-13 19:03:25,358 INFO pgsql_big_dedupe_example:424              15000.0: il transfer system/shazam network
+2018-08-13 19:03:25,359 INFO pgsql_big_dedupe_example:424              10000.0: jones day reavis & pogue
+2018-08-13 19:03:25,359 INFO pgsql_big_dedupe_example:424             24199.76: peoples energy
+2018-08-13 19:03:25,360 INFO pgsql_big_dedupe_example:424              95000.0: barre seid
+2018-08-13 19:03:25,361 INFO pgsql_big_dedupe_example:424              15000.0: fred eychaner
+2018-08-13 19:03:25,366 INFO pgsql_big_dedupe_example:438 Top Donors (raw)
+2018-08-13 19:03:25,367 INFO pgsql_big_dedupe_example:441              95000.0: barre seid
+2018-08-13 19:03:25,368 INFO pgsql_big_dedupe_example:441             55240.25: house republican campaign committee
+2018-08-13 19:03:25,369 INFO pgsql_big_dedupe_example:441             22699.76: peoples energy corporation
+2018-08-13 19:03:25,370 INFO pgsql_big_dedupe_example:441              20000.0: illinois political action committee for education
+2018-08-13 19:03:25,371 INFO pgsql_big_dedupe_example:441              15000.0: il transfer system/shazam network
+2018-08-13 19:03:25,371 INFO pgsql_big_dedupe_example:441              15000.0: fred eychaner
+2018-08-13 19:03:25,372 INFO pgsql_big_dedupe_example:441              11000.0: household international
+2018-08-13 19:03:25,373 INFO pgsql_big_dedupe_example:441              10936.0: friends of michael madigan
+2018-08-13 19:03:25,374 INFO pgsql_big_dedupe_example:441              10000.0: divine interventures inc.
+2018-08-13 19:03:25,375 INFO pgsql_big_dedupe_example:441              10000.0: jones day reavis & pogue
+2018-08-13 19:03:25,376 INFO pgsql_big_dedupe_example:448 ran in 0 seconds
+2018-08-13 19:03:36,832 INFO api:541 ((TfidfNGramCanopyPredicate: (0.8, city), TfidfTextCanopyPredicate: (0.8, address)), (SimplePredicate: (twoGramFingerprint, name), SimplePredicate: (wholeFieldPredicate, person)), (TfidfNGramCanopyPredicate: (0.4, zip), TfidfTextCanopyPredicate: (0.6, name)), (SimplePredicate: (commonIntegerPredicate, name), SimplePredicate: (oneGramFingerprint, zip)))
+2018-08-13 19:03:36,833 INFO pgsql_big_dedupe_example:178 blocking...
+2018-08-13 19:03:36,833 INFO pgsql_big_dedupe_example:182 creating blocking_map database
+2018-08-13 19:03:36,845 INFO pgsql_big_dedupe_example:190 creating inverted index
+2018-08-13 19:03:36,940 INFO pgsql_big_dedupe_example:201 writing blocking map
+2018-08-13 19:03:37,099 INFO pgsql_big_dedupe_example:232 prepare blocking table. this will probably take a while ...
+2018-08-13 19:03:37,100 INFO pgsql_big_dedupe_example:234 indexing block_key
+2018-08-13 19:03:37,121 INFO pgsql_big_dedupe_example:245 calculating plural_key
+2018-08-13 19:03:37,144 INFO pgsql_big_dedupe_example:254 creating block_key index
+2018-08-13 19:03:37,162 INFO pgsql_big_dedupe_example:257 calculating plural_block
+2018-08-13 19:03:37,173 INFO pgsql_big_dedupe_example:263 adding donor_id index and sorting index
+2018-08-13 19:03:37,188 INFO pgsql_big_dedupe_example:273 creating covered_blocks
+2018-08-13 19:03:37,246 INFO pgsql_big_dedupe_example:289 creating smaller_coverage
+2018-08-13 19:03:37,291 INFO pgsql_big_dedupe_example:342 clustering...
+2018-08-13 19:03:37,351 INFO pgsql_big_dedupe_example:356 creating entity_map database
+2018-08-13 19:03:37,388 INFO pgsql_big_dedupe_example:386 # duplicate sets
+2018-08-13 19:03:37,389 INFO pgsql_big_dedupe_example:387 52
+2018-08-13 19:03:37,412 INFO pgsql_big_dedupe_example:421 Top Donors (deduped)
+2018-08-13 19:03:37,413 INFO pgsql_big_dedupe_example:424              10000.0: divine interventures inc.
+2018-08-13 19:03:37,413 INFO pgsql_big_dedupe_example:424              11426.8: friends of michael j. madigan
+2018-08-13 19:03:37,414 INFO pgsql_big_dedupe_example:424              11000.0: household international
+2018-08-13 19:03:37,415 INFO pgsql_big_dedupe_example:424             55240.25: house republican campaign committee
+2018-08-13 19:03:37,416 INFO pgsql_big_dedupe_example:424              21500.0: illinois political action committee for education
+2018-08-13 19:03:37,416 INFO pgsql_big_dedupe_example:424              15000.0: il transfer system/shazam network
+2018-08-13 19:03:37,417 INFO pgsql_big_dedupe_example:424              10000.0: jones day reavis & pogue
+2018-08-13 19:03:37,418 INFO pgsql_big_dedupe_example:424             24199.76: peoples energy
+2018-08-13 19:03:37,418 INFO pgsql_big_dedupe_example:424              95000.0: barre seid
+2018-08-13 19:03:37,419 INFO pgsql_big_dedupe_example:424              15000.0: fred eychaner
+2018-08-13 19:03:37,423 INFO pgsql_big_dedupe_example:438 Top Donors (raw)
+2018-08-13 19:03:37,424 INFO pgsql_big_dedupe_example:441              95000.0: barre seid
+2018-08-13 19:03:37,425 INFO pgsql_big_dedupe_example:441             55240.25: house republican campaign committee
+2018-08-13 19:03:37,426 INFO pgsql_big_dedupe_example:441             22699.76: peoples energy corporation
+2018-08-13 19:03:37,427 INFO pgsql_big_dedupe_example:441              20000.0: illinois political action committee for education
+2018-08-13 19:03:37,427 INFO pgsql_big_dedupe_example:441              15000.0: il transfer system/shazam network
+2018-08-13 19:03:37,428 INFO pgsql_big_dedupe_example:441              15000.0: fred eychaner
+2018-08-13 19:03:37,429 INFO pgsql_big_dedupe_example:441              11000.0: household international
+2018-08-13 19:03:37,430 INFO pgsql_big_dedupe_example:441              10936.0: friends of michael madigan
+2018-08-13 19:03:37,431 INFO pgsql_big_dedupe_example:441              10000.0: divine interventures inc.
+2018-08-13 19:03:37,432 INFO pgsql_big_dedupe_example:441              10000.0: jones day reavis & pogue
+2018-08-13 19:03:37,433 INFO pgsql_big_dedupe_example:448 ran in 000 seconds
+2018-08-13 19:03:49,538 INFO api:541 ((TfidfNGramCanopyPredicate: (0.8, city), TfidfTextCanopyPredicate: (0.8, address)), (SimplePredicate: (twoGramFingerprint, name), SimplePredicate: (wholeFieldPredicate, person)), (TfidfNGramCanopyPredicate: (0.4, zip), TfidfTextCanopyPredicate: (0.6, name)), (SimplePredicate: (commonIntegerPredicate, name), SimplePredicate: (oneGramFingerprint, zip)))
+2018-08-13 19:03:49,540 INFO pgsql_big_dedupe_example:178 blocking...
+2018-08-13 19:03:49,541 INFO pgsql_big_dedupe_example:182 creating blocking_map database
+2018-08-13 19:03:49,556 INFO pgsql_big_dedupe_example:190 creating inverted index
+2018-08-13 19:03:49,661 INFO pgsql_big_dedupe_example:201 writing blocking map
+2018-08-13 19:03:49,832 INFO pgsql_big_dedupe_example:232 prepare blocking table. this will probably take a while ...
+2018-08-13 19:03:49,833 INFO pgsql_big_dedupe_example:234 indexing block_key
+2018-08-13 19:03:49,854 INFO pgsql_big_dedupe_example:245 calculating plural_key
+2018-08-13 19:03:49,886 INFO pgsql_big_dedupe_example:254 creating block_key index
+2018-08-13 19:03:49,897 INFO pgsql_big_dedupe_example:257 calculating plural_block
+2018-08-13 19:03:49,909 INFO pgsql_big_dedupe_example:263 adding donor_id index and sorting index
+2018-08-13 19:03:49,923 INFO pgsql_big_dedupe_example:273 creating covered_blocks
+2018-08-13 19:03:50,002 INFO pgsql_big_dedupe_example:289 creating smaller_coverage
+2018-08-13 19:03:50,030 INFO pgsql_big_dedupe_example:342 clustering...
+2018-08-13 19:03:50,099 INFO pgsql_big_dedupe_example:356 creating entity_map database
+2018-08-13 19:03:50,128 INFO pgsql_big_dedupe_example:386 # duplicate sets
+2018-08-13 19:03:50,130 INFO pgsql_big_dedupe_example:387 52
+2018-08-13 19:03:50,159 INFO pgsql_big_dedupe_example:421 Top Donors (deduped)
+2018-08-13 19:03:50,160 INFO pgsql_big_dedupe_example:424              10000.0: divine interventures inc.
+2018-08-13 19:03:50,161 INFO pgsql_big_dedupe_example:424              11426.8: friends of michael j. madigan
+2018-08-13 19:03:50,162 INFO pgsql_big_dedupe_example:424              11000.0: household international
+2018-08-13 19:03:50,163 INFO pgsql_big_dedupe_example:424             55240.25: house republican campaign committee
+2018-08-13 19:03:50,164 INFO pgsql_big_dedupe_example:424              21500.0: illinois political action committee for education
+2018-08-13 19:03:50,166 INFO pgsql_big_dedupe_example:424              15000.0: il transfer system/shazam network
+2018-08-13 19:03:50,166 INFO pgsql_big_dedupe_example:424              10000.0: jones day reavis & pogue
+2018-08-13 19:03:50,167 INFO pgsql_big_dedupe_example:424             24199.76: peoples energy
+2018-08-13 19:03:50,168 INFO pgsql_big_dedupe_example:424              95000.0: barre seid
+2018-08-13 19:03:50,169 INFO pgsql_big_dedupe_example:424              15000.0: fred eychaner
+2018-08-13 19:03:50,175 INFO pgsql_big_dedupe_example:438 Top Donors (raw)
+2018-08-13 19:03:50,176 INFO pgsql_big_dedupe_example:441              95000.0: barre seid
+2018-08-13 19:03:50,177 INFO pgsql_big_dedupe_example:441             55240.25: house republican campaign committee
+2018-08-13 19:03:50,178 INFO pgsql_big_dedupe_example:441             22699.76: peoples energy corporation
+2018-08-13 19:03:50,180 INFO pgsql_big_dedupe_example:441              20000.0: illinois political action committee for education
+2018-08-13 19:03:50,181 INFO pgsql_big_dedupe_example:441              15000.0: il transfer system/shazam network
+2018-08-13 19:03:50,182 INFO pgsql_big_dedupe_example:441              15000.0: fred eychaner
+2018-08-13 19:03:50,183 INFO pgsql_big_dedupe_example:441              11000.0: household international
+2018-08-13 19:03:50,185 INFO pgsql_big_dedupe_example:441              10936.0: friends of michael madigan
+2018-08-13 19:03:50,187 INFO pgsql_big_dedupe_example:441              10000.0: divine interventures inc.
+2018-08-13 19:03:50,188 INFO pgsql_big_dedupe_example:441              10000.0: jones day reavis & pogue
+2018-08-13 19:03:50,190 INFO pgsql_big_dedupe_example:448 ran in 0.70 seconds
+2018-08-13 19:05:32,032 INFO api:541 ((TfidfNGramCanopyPredicate: (0.8, city), TfidfTextCanopyPredicate: (0.8, address)), (SimplePredicate: (twoGramFingerprint, name), SimplePredicate: (wholeFieldPredicate, person)), (TfidfNGramCanopyPredicate: (0.4, zip), TfidfTextCanopyPredicate: (0.6, name)), (SimplePredicate: (commonIntegerPredicate, name), SimplePredicate: (oneGramFingerprint, zip)))
+2018-08-13 19:05:32,033 INFO pgsql_big_dedupe_example:178 blocking...
+2018-08-13 19:05:32,034 INFO pgsql_big_dedupe_example:182 creating blocking_map database
+2018-08-13 19:05:32,046 INFO pgsql_big_dedupe_example:190 creating inverted index
+2018-08-13 19:05:33,722 INFO canopy_index:32 Removing stop word w
+2018-08-13 19:05:33,724 INFO canopy_index:32 Removing stop word ave
+2018-08-13 19:05:33,725 INFO canopy_index:32 Removing stop word rd
+2018-08-13 19:05:33,726 INFO canopy_index:32 Removing stop word avenue
+2018-08-13 19:05:33,728 INFO canopy_index:32 Removing stop word st
+2018-08-13 19:05:33,729 INFO canopy_index:32 Removing stop word street
+2018-08-13 19:05:33,730 INFO canopy_index:32 Removing stop word s
+2018-08-13 19:05:33,732 INFO canopy_index:32 Removing stop word n
+2018-08-13 19:05:33,733 INFO canopy_index:32 Removing stop word suite
+2018-08-13 19:05:33,734 INFO canopy_index:32 Removing stop word road
+2018-08-13 19:05:33,736 INFO canopy_index:32 Removing stop word box
+2018-08-13 19:05:33,940 INFO canopy_index:32 Removing stop word 60
+2018-08-13 19:05:35,523 INFO canopy_index:32 Removing stop word inc
+2018-08-13 19:05:35,621 INFO pgsql_big_dedupe_example:201 writing blocking map
+2018-08-13 19:05:37,484 INFO blocking:46 10000, 1.8485412 seconds
+2018-08-13 19:05:39,130 INFO blocking:46 20000, 3.4833802 seconds
+2018-08-13 19:05:40,675 INFO blocking:46 30000, 5.0115652 seconds
+2018-08-13 19:05:42,179 INFO blocking:46 40000, 6.5052812 seconds
+2018-08-13 19:05:43,521 INFO blocking:46 50000, 7.8363192 seconds
+2018-08-13 19:05:44,829 INFO blocking:46 60000, 9.1313342 seconds
+2018-08-13 19:05:45,712 INFO pgsql_big_dedupe_example:232 prepare blocking table. this will probably take a while ...
+2018-08-13 19:05:45,714 INFO pgsql_big_dedupe_example:234 indexing block_key
+2018-08-13 19:05:46,404 INFO pgsql_big_dedupe_example:245 calculating plural_key
+2018-08-13 19:05:46,728 INFO pgsql_big_dedupe_example:254 creating block_key index
+2018-08-13 19:05:46,831 INFO pgsql_big_dedupe_example:257 calculating plural_block
+2018-08-13 19:05:47,315 INFO pgsql_big_dedupe_example:263 adding donor_id index and sorting index
+2018-08-13 19:05:47,568 INFO pgsql_big_dedupe_example:273 creating covered_blocks
+2018-08-13 19:05:48,058 INFO pgsql_big_dedupe_example:289 creating smaller_coverage
+2018-08-13 19:05:48,577 INFO pgsql_big_dedupe_example:342 clustering...
+2018-08-13 19:05:56,292 INFO pgsql_big_dedupe_example:356 creating entity_map database
+2018-08-13 19:05:56,789 INFO pgsql_big_dedupe_example:386 # duplicate sets
+2018-08-13 19:05:56,790 INFO pgsql_big_dedupe_example:387 9579
+2018-08-13 19:05:57,248 INFO pgsql_big_dedupe_example:421 Top Donors (deduped)
+2018-08-13 19:05:57,250 INFO pgsql_big_dedupe_example:424            3872475.0: democratic congressional campaign committee
+2018-08-13 19:05:57,251 INFO pgsql_big_dedupe_example:424            2942599.0: democratic national committee
+2018-08-13 19:05:57,252 INFO pgsql_big_dedupe_example:424           2235577.72: democratic party of illinois
+2018-08-13 19:05:57,252 INFO pgsql_big_dedupe_example:424           1456329.93: republican state senate campaign com
+2018-08-13 19:05:57,253 INFO pgsql_big_dedupe_example:424           1432913.37: merrill lynch
+2018-08-13 19:05:57,254 INFO pgsql_big_dedupe_example:424            1100300.0: citizens for emil jones
+2018-08-13 19:05:57,255 INFO pgsql_big_dedupe_example:424            980636.97: friends of michael j madigan
+2018-08-13 19:05:57,256 INFO pgsql_big_dedupe_example:424            957085.52: republican national state elections committee
+2018-08-13 19:05:57,257 INFO pgsql_big_dedupe_example:424             940271.0: illinois senate democratic fund (the)
+2018-08-13 19:05:57,257 INFO pgsql_big_dedupe_example:424     834066.559999999: house republican campaign committee
+2018-08-13 19:05:57,402 INFO pgsql_big_dedupe_example:438 Top Donors (raw)
+2018-08-13 19:05:57,403 INFO pgsql_big_dedupe_example:441            2942599.0: democratic national committee
+2018-08-13 19:05:57,404 INFO pgsql_big_dedupe_example:441            2647475.0: democratic congressional campaign committee
+2018-08-13 19:05:57,405 INFO pgsql_big_dedupe_example:441           1432627.42: merrill lynch
+2018-08-13 19:05:57,406 INFO pgsql_big_dedupe_example:441            1273997.9: democratic party of illinois
+2018-08-13 19:05:57,407 INFO pgsql_big_dedupe_example:441            1225000.0: democratic senatorial campaign committee
+2018-08-13 19:05:57,407 INFO pgsql_big_dedupe_example:441            1100000.0: jones citizens for emil jr.
+2018-08-13 19:05:57,408 INFO pgsql_big_dedupe_example:441             940271.0: illinois senate democratic fund (the)
+2018-08-13 19:05:57,409 INFO pgsql_big_dedupe_example:441             800000.0: madigan friends of michael j
+2018-08-13 19:05:57,410 INFO pgsql_big_dedupe_example:441             600000.0: fidelity investment money mkt
+2018-08-13 19:05:57,411 INFO pgsql_big_dedupe_example:441            597709.36: house republican campaign committee
+2018-08-13 19:05:57,412 INFO pgsql_big_dedupe_example:448 ran in 25.41 seconds
+2018-08-13 19:08:57,901 INFO api:541 ((TfidfNGramCanopyPredicate: (0.8, city), TfidfTextCanopyPredicate: (0.8, address)), (SimplePredicate: (twoGramFingerprint, name), SimplePredicate: (wholeFieldPredicate, person)), (TfidfNGramCanopyPredicate: (0.4, zip), TfidfTextCanopyPredicate: (0.6, name)), (SimplePredicate: (commonIntegerPredicate, name), SimplePredicate: (oneGramFingerprint, zip)))
+2018-08-13 19:08:57,902 INFO pgsql_big_dedupe_example:178 blocking...
+2018-08-13 19:08:57,903 INFO pgsql_big_dedupe_example:182 creating blocking_map database
+2018-08-13 19:08:57,915 INFO pgsql_big_dedupe_example:190 creating inverted index
+2018-08-13 19:09:01,497 INFO canopy_index:32 Removing stop word w
+2018-08-13 19:09:01,499 INFO canopy_index:32 Removing stop word ave
+2018-08-13 19:09:01,501 INFO canopy_index:32 Removing stop word st
+2018-08-13 19:09:01,502 INFO canopy_index:32 Removing stop word rd
+2018-08-13 19:09:01,503 INFO canopy_index:32 Removing stop word avenue
+2018-08-13 19:09:01,505 INFO canopy_index:32 Removing stop word n
+2018-08-13 19:09:01,506 INFO canopy_index:32 Removing stop word s
+2018-08-13 19:09:01,508 INFO canopy_index:32 Removing stop word street
+2018-08-13 19:09:01,509 INFO canopy_index:32 Removing stop word box
+2018-08-13 19:09:01,510 INFO canopy_index:32 Removing stop word road
+2018-08-13 19:09:01,856 INFO canopy_index:32 Removing stop word 60
+2018-08-13 19:09:01,857 INFO canopy_index:32 Removing stop word 00
+2018-08-13 19:09:01,858 INFO canopy_index:32 Removing stop word 06
+2018-08-13 19:09:01,860 INFO canopy_index:32 Removing stop word 61
+2018-08-13 19:09:01,861 INFO canopy_index:32 Removing stop word 01
+2018-08-13 19:09:05,337 INFO canopy_index:32 Removing stop word inc
+2018-08-13 19:09:05,550 INFO pgsql_big_dedupe_example:201 writing blocking map
+2018-08-13 19:09:07,961 INFO blocking:46 10000, 2.3896112 seconds
+2018-08-13 19:09:09,986 INFO blocking:46 20000, 4.4027542 seconds
+2018-08-13 19:09:11,864 INFO blocking:46 30000, 6.2655772 seconds
+2018-08-13 19:09:13,956 INFO blocking:46 40000, 8.3451952 seconds
+2018-08-13 19:09:15,998 INFO blocking:46 50000, 10.3641222 seconds
+2018-08-13 19:09:17,801 INFO blocking:46 60000, 12.1522162 seconds
+2018-08-13 19:09:19,580 INFO blocking:46 70000, 13.9137272 seconds
+2018-08-13 19:09:21,355 INFO blocking:46 80000, 15.6736962 seconds
+2018-08-13 19:09:23,009 INFO blocking:46 90000, 17.3113352 seconds
+2018-08-13 19:09:24,730 INFO blocking:46 100000, 19.0194802 seconds
+2018-08-13 19:09:26,513 INFO blocking:46 110000, 20.7779862 seconds
+2018-08-13 19:09:28,131 INFO blocking:46 120000, 22.3832272 seconds
+2018-08-13 19:09:29,611 INFO blocking:46 130000, 23.8523402 seconds
+2018-08-13 19:09:31,921 INFO pgsql_big_dedupe_example:232 prepare blocking table. this will probably take a while ...
+2018-08-13 19:09:31,923 INFO pgsql_big_dedupe_example:234 indexing block_key
+2018-08-13 19:09:33,717 INFO pgsql_big_dedupe_example:245 calculating plural_key
+2018-08-13 19:09:34,454 INFO pgsql_big_dedupe_example:254 creating block_key index
+2018-08-13 19:09:34,678 INFO pgsql_big_dedupe_example:257 calculating plural_block
+2018-08-13 19:09:36,125 INFO pgsql_big_dedupe_example:263 adding donor_id index and sorting index
+2018-08-13 19:09:36,933 INFO pgsql_big_dedupe_example:273 creating covered_blocks
+2018-08-13 19:09:38,288 INFO pgsql_big_dedupe_example:289 creating smaller_coverage
+2018-08-13 19:09:39,853 INFO pgsql_big_dedupe_example:342 clustering...
+2018-08-13 19:10:38,280 INFO pgsql_big_dedupe_example:356 creating entity_map database
+2018-08-13 19:10:39,363 INFO pgsql_big_dedupe_example:386 # duplicate sets
+2018-08-13 19:10:39,364 INFO pgsql_big_dedupe_example:387 22691
+2018-08-13 19:10:41,478 INFO pgsql_big_dedupe_example:421 Top Donors (deduped)
+2018-08-13 19:10:41,479 INFO pgsql_big_dedupe_example:424           4830004.04: democratic party of illinois
+2018-08-13 19:10:41,480 INFO pgsql_big_dedupe_example:424            2943599.0: democratic national committee
+2018-08-13 19:10:41,482 INFO pgsql_big_dedupe_example:424            2655125.0: democratic congressional campaign committee
+2018-08-13 19:10:41,483 INFO pgsql_big_dedupe_example:424           1832668.02: merril lynch
+2018-08-13 19:10:41,484 INFO pgsql_big_dedupe_example:424            1642700.0: john schmidt
+2018-08-13 19:10:41,485 INFO pgsql_big_dedupe_example:424            1524222.0: chicago teachers union pac
+2018-08-13 19:10:41,486 INFO pgsql_big_dedupe_example:424           1405081.25: republican state senate campaign com
+2018-08-13 19:10:41,487 INFO pgsql_big_dedupe_example:424           1286855.64: illinois state medical society
+2018-08-13 19:10:41,488 INFO pgsql_big_dedupe_example:424            1225000.0: democratic senatorial campaign committee
+2018-08-13 19:10:41,489 INFO pgsql_big_dedupe_example:424           1205158.46: house republican campaign committee
+2018-08-13 19:10:42,056 INFO pgsql_big_dedupe_example:438 Top Donors (raw)
+2018-08-13 19:10:42,057 INFO pgsql_big_dedupe_example:441           3189232.23: democratic party of illinois
+2018-08-13 19:10:42,058 INFO pgsql_big_dedupe_example:441            2942599.0: democratic national committee
+2018-08-13 19:10:42,059 INFO pgsql_big_dedupe_example:441            2647475.0: democratic congressional campaign committee
+2018-08-13 19:10:42,061 INFO pgsql_big_dedupe_example:441           1831099.92: merrill lynch
+2018-08-13 19:10:42,062 INFO pgsql_big_dedupe_example:441            1609900.0: john schmidt
+2018-08-13 19:10:42,063 INFO pgsql_big_dedupe_example:441            1225000.0: democratic senatorial campaign committee
+2018-08-13 19:10:42,064 INFO pgsql_big_dedupe_example:441            1200000.0: telephone u.s.a. investments inc.  c/o lord bissel & brook
+2018-08-13 19:10:42,065 INFO pgsql_big_dedupe_example:441            1160000.0: jones citizens for emil jr.
+2018-08-13 19:10:42,067 INFO pgsql_big_dedupe_example:441            1138000.0: bonnie wheaton,
+2018-08-13 19:10:42,069 INFO pgsql_big_dedupe_example:441           1059090.22: invest financial corp.
+2018-08-13 19:10:42,070 INFO pgsql_big_dedupe_example:448 ran in 104.21 seconds

@@ -1,0 +1,28 @@
+FROM python:3.6.3
+
+USER root
+
+RUN apt-get update && \
+    apt-get -qy --force-yes install --reinstall build-essential && \
+    apt-get -qy --force-yes install gcc freetds-dev freetds-bin unixodbc-dev tdsodbc
+
+
+# add dedupe scripts
+ADD dedupe /dedupe
+
+RUN pip install --upgrade pip && \
+    pip install sqlalchemy numpy pandas pyodbc pymysql psycopg2==2.7.3.2 unidecode && \
+
+COPY requirements.txt /tmp
+WORKDIR /tmp
+RUN pip install -r requirements.txt
+
+WORKDIR /
+
+ADD odbcinst.ini /etc/odbcinst.ini
+RUN odbcinst -q -d -i -f /etc/odbcinst.ini
+
+
+CMD ["python"]
+
+WORKDIR /DockerETL

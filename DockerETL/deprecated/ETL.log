@@ -1,0 +1,3 @@
+2018-08-05 13:55:58,939 - __main__ - INFO - connected to database
+2018-08-05 13:55:58,987 - __main__ - INFO - created table in db
+2018-08-05 13:55:59,473 - __main__ - INFO - data written to new table

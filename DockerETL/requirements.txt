@@ -1,0 +1,14 @@
+pytest
+pytest-cov
+https://github.com/datamade/pytest-flake8/zipball/master
+cython
+mock
+sqlalchemy
+numpy
+pandas
+pyodbc
+pymysql
+psycopg2==2.5.4
+unidecode==0.04.16
+dj-database-url>=0.3.0
+requests

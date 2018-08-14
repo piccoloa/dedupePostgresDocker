@@ -1,0 +1,82 @@
+#https://docs.docker.com/samples/library/postgres/#postgres_user
+#https://docs.docker.com/samples/library/postgres/#-via-docker-stack-deploy-or-docker-compose
+version: '3.1'
+
+services:
+
+  # Backend DB container
+  db:
+    image: postgres
+    container_name: pg_test
+    restart: always
+    env_file:
+      - "./config/postgreSQLserver.env"
+    volumes:
+      - "./db:/var/lib/postgresql/data"
+    networks:
+      data_movers:
+
+  # PostgreSQL Web Admin tool
+  adminer:
+    image: adminer
+    restart: always
+    networks:
+      data_movers:
+    ports:
+      - 8080:8080
+
+  # ETL container
+  etl_odbc:
+    tty: true  #this keeps container from exiting with a script
+    build:
+     context: ./DockerETL
+    container_name: ETL
+    # command: ['/DockerETL/startup_script.sh'] #], 'cd DockerETL'] #for testing onlh to keep container from exiting
+    # command: ['bash', '&&', 'while true; do sleep 1000; done']
+    ports:
+      - "9999:9999"
+    networks:
+      data_movers:
+    volumes:
+      - "./DockerETL:/DockerETL"
+    env_file:
+      - "./config/jupyter.env"
+    #  - "./config/mariadbPwdclient.env"
+      - "./config/postgreSQLclient_ETL.env"
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "200k"
+        max-file: "10"
+
+  odbc_jupyter:
+    build:
+      context: ./jupyter
+    container_name: notebook
+    ports:
+      - "8888:8888"
+    networks:
+      data_movers:
+    # links:
+    #   - cv_maria_db
+    volumes:
+      - "./notebooks:/notebooks"
+      # - "db-data:/data/db"
+#      - "./data/db:/data/db"
+    env_file:
+      - "./config/jupyter.env"
+      - "./config/windowsPwd.env"
+      - "./config/windowsUser.env"
+      - "./config/postgreSQLclient_ETL.env"
+      # - "./config/mariadbPwd.env"
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "200k"
+        max-file: "10"
+
+networks:
+  data_movers:
+
+volumes:
+  db:
